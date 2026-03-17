@@ -1,0 +1,1 @@
+# clipboardmanager-privacy
