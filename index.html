@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - ClipboardManager</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f7;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .header {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #1d1d1f;
+            margin-bottom: 10px;
+        }
+        
+        .meta {
+            color: #86868b;
+            font-size: 14px;
+        }
+        
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            font-size: 28px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #515154;
+        }
+        
+        ul {
+            margin-bottom: 20px;
+            padding-left: 30px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            color: #515154;
+        }
+        
+        .highlight-box {
+            background: #f5f5f7;
+            border-left: 4px solid #0071e3;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .highlight-box p {
+            margin: 0;
+            font-weight: 500;
+        }
+        
+        code {
+            background: #f5f5f7;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 14px;
+        }
+        
+        .summary-box {
+            background: #e8f4f8;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 40px 0;
+            border: 2px solid #0071e3;
+        }
+        
+        .summary-box h2 {
+            margin-top: 0;
+            color: #0071e3;
+        }
+        
+        .contact {
+            background: #f5f5f7;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+        .contact a {
+            color: #0071e3;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .language-switch {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .language-switch a {
+            color: #0071e3;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 15px;
+            }
+            
+            .header, .content {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <p class="meta">Last Updated: March 15, 2026 | Developer: wangchao | Contact: aclct@icloud.com</p>
+        </div>
+        
+        <div class="content">
+            <div class="highlight-box">
+                <p><strong>TL;DR:</strong> We don't collect any personal information. All your clipboard history stays on your Mac. We can't see it, and we don't want to.</p>
+            </div>
+            
+            <h2>Overview</h2>
+            <p>ClipboardManager ("the App") is committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our clipboard management application for macOS.</p>
+            
+            <h2>Information We Collect</h2>
+            <p><strong>We do not collect any personal information.</strong></p>
+            <p>ClipboardManager is designed with privacy as a core principle:</p>
+            <ul>
+                <li>✅ No personal data collection</li>
+                <li>✅ No analytics or tracking</li>
+                <li>✅ No user accounts required</li>
+                <li>✅ No internet connection needed</li>
+                <li>✅ No third-party services integrated</li>
+            </ul>
+            
+            <h2>Data Storage</h2>
+            <h3>Local Storage Only</h3>
+            <p>All clipboard history is stored <strong>exclusively on your Mac</strong>:</p>
+            <ul>
+                <li>Text content is saved in a local database</li>
+                <li>Images are saved in your Mac's application support folder</li>
+                <li>File paths are stored (not the actual files)</li>
+                <li>All data remains on your device and never leaves it</li>
+            </ul>
+            
+            <h3>Data Location</h3>
+            <p>Your clipboard history is stored at:</p>
+            <code>~/Library/Application Support/ClipboardManager/</code>
+            <p>This folder contains:</p>
+            <ul>
+                <li><code>clipboardItems.json</code> - Your clipboard history</li>
+                <li><code>Images/</code> - Saved clipboard images</li>
+            </ul>
+            
+            <h3>Data Retention</h3>
+            <ul>
+                <li>The app stores a maximum of 20 clipboard items</li>
+                <li>Older items are automatically deleted when the limit is reached</li>
+                <li>Image files are automatically cleaned up after 30 days</li>
+                <li>You can manually clear all history at any time through the app settings</li>
+            </ul>
+            
+            <h2>Permissions</h2>
+            <h3>Required Permissions</h3>
+            <p>The app requests the following macOS permissions:</p>
+            
+            <p><strong>1. Clipboard Access</strong></p>
+            <ul>
+                <li><strong>Purpose:</strong> To monitor and save clipboard changes</li>
+                <li><strong>Scope:</strong> Only monitors when the app is running</li>
+                <li><strong>Control:</strong> Can be disabled by quitting the app</li>
+            </ul>
+            
+            <p><strong>2. File System Access (Sandbox)</strong></p>
+            <ul>
+                <li><strong>Purpose:</strong> To save clipboard images and history data</li>
+                <li><strong>Scope:</strong> Limited to the app's own container</li>
+                <li><strong>Control:</strong> Standard macOS app sandbox restrictions apply</li>
+            </ul>
+            
+            <h3>No Additional Permissions</h3>
+            <p>The app does NOT request:</p>
+            <ul>
+                <li>❌ Camera or microphone</li>
+                <li>❌ Location services</li>
+                <li>❌ Contacts or calendar</li>
+                <li>❌ Network access</li>
+                <li>❌ Full disk access</li>
+            </ul>
+            
+            <h2>Third-Party Services</h2>
+            <p><strong>None.</strong></p>
+            <p>ClipboardManager does not integrate with any third-party services:</p>
+            <ul>
+                <li>No analytics frameworks</li>
+                <li>No crash reporting services</li>
+                <li>No advertising networks</li>
+                <li>No social media integration</li>
+                <li>No cloud storage services</li>
+            </ul>
+            
+            <h2>Data Sharing</h2>
+            <p><strong>We never share your data</strong> because we never collect it in the first place.</p>
+            <ul>
+                <li>No data is transmitted over the internet</li>
+                <li>No data is shared with third parties</li>
+                <li>No data is sold or monetized</li>
+                <li>No data leaves your Mac</li>
+            </ul>
+            
+            <h2>Data Security</h2>
+            <h3>Local Security</h3>
+            <p>Your clipboard history is protected by:</p>
+            <ul>
+                <li>macOS app sandboxing</li>
+                <li>Standard file system permissions</li>
+                <li>Your Mac's user account security</li>
+                <li>FileVault encryption (if enabled on your Mac)</li>
+            </ul>
+            
+            <h3>Best Practices</h3>
+            <p>To protect your clipboard data:</p>
+            <ul>
+                <li>Use a strong password for your Mac user account</li>
+                <li>Enable FileVault disk encryption</li>
+                <li>Keep your Mac and the app updated</li>
+                <li>Don't copy sensitive passwords (use a password manager instead)</li>
+            </ul>
+            
+            <h2>Your Rights</h2>
+            <p>Since we don't collect any personal data, data subject rights under GDPR, CCPA, or other privacy laws don't apply. However, you have complete control over your data:</p>
+            
+            <h3>Access Your Data</h3>
+            <p>Your clipboard history is stored in plain text JSON format. You can open it with any text editor.</p>
+            
+            <h3>Delete Your Data</h3>
+            <p>To delete all your clipboard history:</p>
+            <ul>
+                <li><strong>In the app:</strong> Click "Clear History" in settings</li>
+                <li><strong>Manually:</strong> Delete the folder at <code>~/Library/Application Support/ClipboardManager/</code></li>
+                <li><strong>Completely remove:</strong> Uninstall the app and delete the folder above</li>
+            </ul>
+            
+            <h2>Children's Privacy</h2>
+            <p>ClipboardManager does not knowingly collect information from children. The app is rated 4+ and suitable for all ages. Since we collect no personal information, there is no special consideration needed for users under 13.</p>
+            
+            <h2>Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top.</p>
+            <p>Continued use of the app after changes constitutes acceptance of the updated Privacy Policy.</p>
+            
+            <h2>Compliance</h2>
+            <h3>GDPR Compliance</h3>
+            <p>Under the General Data Protection Regulation (GDPR), we are compliant because we process no personal data and no data leaves your device.</p>
+            
+            <h3>CCPA Compliance</h3>
+            <p>Under the California Consumer Privacy Act (CCPA), we are compliant because we collect no personal information and sell no data.</p>
+            
+            <h3>App Store Guidelines</h3>
+            <p>This app complies with Apple's App Store Review Guidelines section 5.1.1 regarding data collection and privacy.</p>
+            
+            <div class="summary-box">
+                <h2>Summary</h2>
+                <p><strong>In Plain English:</strong></p>
+                <p>ClipboardManager is a simple tool that works entirely on your Mac. We don't collect, store, or transmit any of your data. Everything stays on your computer. We can't see what you copy, and we don't want to. Your privacy is guaranteed because we literally have no way to access your information.</p>
+            </div>
+            
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p>If you have questions about this Privacy Policy, please contact:</p>
+                <p><strong>Email:</strong> <a href="mailto:aclct@icloud.com">aclct@icloud.com</a></p>
+                <p><strong>Developer:</strong> wangchao</p>
+                <p>We typically respond within 1-2 business days.</p>
+            </div>
+            
+            <div class="language-switch">
+                <p><a href="privacy-policy-zh.html">查看中文版 →</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
